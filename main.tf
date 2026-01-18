@@ -1,5 +1,5 @@
 resource "aws_security_group" "web_sg" {
-  name        = "web-sg"
+  name        = "ww-sg"
   description = "Allow SSH and HTTP"
 
   ingress {
