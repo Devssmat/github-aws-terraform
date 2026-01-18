@@ -1,12 +1,3 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "6.28.0"
-    }
-  }
-}
-
 provider "aws" {
-  region = "us-west-2" # Oregon
+  region = "us-west-2"
 }
